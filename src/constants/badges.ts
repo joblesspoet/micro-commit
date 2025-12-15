@@ -1,0 +1,42 @@
+export const BADGES = [
+  {
+    id: 'starter',
+    name: 'Starter',
+    description: 'Complete your first 3 days',
+    icon: '🌱',
+    requiredDays: 3,
+    rarity: 'common',
+  },
+  {
+    id: 'warrior',
+    name: '7-Day Warrior',
+    description: "You've completed 7 days in a row!",
+    icon: '💪',
+    requiredDays: 7,
+    rarity: 'common',
+  },
+  {
+    id: 'champion',
+    name: '10-Day Champion',
+    description: '10 days of consistency!',
+    icon: '🏆',
+    requiredDays: 10,
+    rarity: 'rare',
+  },
+  {
+    id: 'master',
+    name: '30-Day Master',
+    description: 'A full month of dedication',
+    icon: '👑',
+    requiredDays: 30,
+    rarity: 'epic',
+  },
+  {
+    id: 'legend',
+    name: '100-Day Legend',
+    description: "You're legendary!",
+    icon: '⭐',
+    requiredDays: 100,
+    rarity: 'legendary',
+  },
+];
